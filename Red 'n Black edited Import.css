@@ -1,29 +1,29 @@
 /* Customize */
 :root {
-    /* Primary Color (Default: rgb(85, 8, 8) ) */
-    --color1: rgb(85, 8, 8);
-    /* Secondary Color (Default: rgb(56, 0, 0) ) */
-    --color2: rgb(56, 0, 0);
+    /* Primary Color (Default: rgb(128,0,128) ) */
+    --color1: rgb(128,0,128);
+    /* Secondary Color (Default: rgb(128,0,128) ) */
+    --color2: rgb(128,0,128);
 
-    /* Primary Color Buttons On Hover (Default: rgb(95, 9, 9) ) */
-    --color3: rgb(95, 9, 9);
-    /* Secondary Color Buttons On Hover (Default: rgb(66, 0, 0) ) */
-    --color4: rgb(71, 0, 0);
+    /* Primary Color Buttons On Hover (Default: rgb(128,0,128) ) */
+    --color3: rgb(128,0,128);
+    /* Secondary Color Buttons On Hover (Default: rgb(128,0,128) ) */
+    --color4: rgb(128,0,128);
 
-    /* Tertiary Color (Default: darkred) */
-    --color10: darkred;
+    /* Tertiary Color (Default: yellow) */
+    --color10: yellow;
 
-    /* Accent Color (Default: red) */
-    --accent-color: red;
+    /* Accent Color (Default: green) */
+    --accent-color: green
 
-    /* Background Image (change the url inside the brackets, default: url(https://i.imgur.com/6rlzsb8.png); ) */
-    --background-url: url(https://i.imgur.com/6rlzsb8.png);
+     /* Background Image (change the url inside the brackets, default: url(https://i.imgur.com/TLTIQz7.jpg); ) */
+    --background-url: url(https://i.imgur.com/TLTIQz7.jpg);
     /* Background Color, appears for example behind the server list (Default: black) */
-    --background-color: black;
+    --background-color: black; 
 
     /* Server image/profile pictures roundness (Default: 0px) */
-    --server-list-rounding: 0px;
-    /* Width for server icons in folders (Default: 40px) */
+    --server-list-rounding: 10px;
+    /* Width for server icons in folders (Default: 50px) */
     --icon-width: 40px;
 }
 
@@ -493,8 +493,8 @@
             background-color: red;
             border-radius: 0px;
         }
-        
-        
+
+
     /* Members */
         .membersGroup-v9BXpm {
             background-color: var(--background-color);
@@ -561,7 +561,7 @@
             margin-bottom: 2px;
             margin-right: 4px;
         }
-        
+
         .selected-aXhQR6 .layout-2DM8Md {
             background-color: var(--color1);
         }
@@ -800,7 +800,7 @@
         .control-2BBjec > .container-3auIfb[style*="background-color: rgb(67"] > .slider-TkfMQL > rect {
             x: 14;
         }
-        
+
         .slider-TkfMQL > svg {
             display: none;
         }
@@ -1110,7 +1110,7 @@
     .actionButton-uPB8Fs:hover {
         background-color: var(--color2);
     }
-    
+
     .popout-38lTFE {
         background-color: var(--background-color) !important;
         border-radius: 0px;
